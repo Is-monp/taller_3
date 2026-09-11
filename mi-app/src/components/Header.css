@@ -1,0 +1,30 @@
+.main-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #1a1a2e;   
+    color: white;    
+}
+
+.main-nav__logo {
+    text-decoration: none;
+    font-weight: 600;
+    color: rgba(233, 69, 96);
+    font-size: 1.25rem;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    list-style: none;
+}
+
+.nav-menu__item {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 1rem;
+}
+

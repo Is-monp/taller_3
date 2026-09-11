@@ -1,4 +1,12 @@
+import Header from "./components/Header";
+import './components/Header.css';
+
+
 function App() {
-return <h1>Hola</h1>;
+return (
+    <Header/>
+)
+
+
 }
 export default App;
