@@ -1,0 +1,27 @@
+.counter-section {
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    background:#1a1a2e;
+}
+.counter-section__content {
+    max-width: 720px;
+}
+
+.counter-section__title {
+    font-size: clamp(1rem, 4vw, 2rem);
+    font-weight: 800;
+    color: #ffffff;
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+}
+
+.counter-section__subtitle {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: #a8b0c8;
+    margin: 0;
+}

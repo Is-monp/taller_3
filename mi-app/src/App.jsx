@@ -4,6 +4,8 @@ import Hero from "./components/Hero";
 import './components/Hero.css';
 import Middle from "./components/Middle";
 import './components/Middle.css';
+import CounterSection from "./components/CounterSection";
+import './components/CounterSection.css';
 
 function App() {
 return (
@@ -11,6 +13,7 @@ return (
       <Header/>
       <Hero/>
       <Middle/>
+      <CounterSection/>
     </>
 )
 
