@@ -6,14 +6,17 @@ import Middle from "./components/Middle";
 import './components/Middle.css';
 import CounterSection from "./components/CounterSection";
 import './components/CounterSection.css';
+import Footer from "./components/Footer";
+import './components/Footer.css';
 
 function App() {
 return (
     <>
-      <Header/>
-      <Hero/>
-      <Middle/>
-      <CounterSection/>
+        <Header/>
+        <Hero/>
+        <Middle/>
+        <CounterSection/>
+        <Footer/>
     </>
 )
 
