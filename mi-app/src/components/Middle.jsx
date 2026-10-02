@@ -1,4 +1,5 @@
 import Card from "./Card";
+import './Middle.css';
 
 function Middle() {
     const courses = [
