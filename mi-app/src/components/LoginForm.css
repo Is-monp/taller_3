@@ -1,0 +1,117 @@
+.login {
+  min-height: 50vh;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  background:
+    radial-gradient(circle at 80% 80%, rgba(30, 70, 160, 0.45), transparent 60%),
+    radial-gradient(circle at 10% 90%, rgba(50, 40, 130, 0.35), transparent 60%),
+    linear-gradient(135deg, #1a1a2e 0%, #101538 50%, #0c1230 100%);
+}
+
+.login__content {
+  width: 100%;
+  max-width: 420px;
+}
+
+.login__title {
+  font-size: clamp(2.25rem, 5vw, 3.25rem);
+  font-weight: 800;
+  color: #ffffff;
+  line-height: 1.1;
+  margin-bottom: 1rem;
+}
+
+.login__title--highlight {
+  color: #ff4d6d;
+}
+
+.login__subtitle {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: #a8b0c8;
+  margin: 0 0 2rem;
+}
+
+.login__form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  padding: 2rem;
+  text-align: left;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(168, 176, 200, 0.18);
+  border-radius: 20px;
+  backdrop-filter: blur(8px);
+}
+
+.login__field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.login__label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.login__input {
+  padding: 0.85rem 1.25rem;
+  font-size: 0.95rem;
+  font-family: inherit;
+  color: #ffffff;
+  background: rgba(12, 18, 48, 0.7);
+  border: 1px solid rgba(168, 176, 200, 0.25);
+  border-radius: 50px;
+}
+
+.login__input::placeholder {
+  color: #a8b0c8;
+  opacity: 0.7;
+}
+
+.login__button {
+  margin-top: 0.5rem;
+  padding: 0.85rem 2.75rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #ffffff;
+  background: #ff4d6d;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.login__button:hover {
+  background: #ff3355;
+  box-shadow: 0 8px 25px rgba(255, 77, 109, 0.35);
+}
+
+.login__button:disabled {
+  background: #ff4d6d;
+  opacity: 0.5;
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+
+.login__input:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.login__button:focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 3px;
+}
+
+@media (max-width: 480px) {
+  .login__form {
+    padding: 1.5rem;
+  }
+}
