@@ -1,4 +1,6 @@
 # React + Vite
+## comentario.
+Lo sé, me di cuenta DESPUES de hacer todo T-T. Dice taller_3 el repo pero fue porque lo continue en el mismo repo, ojalá eso no sea un problema (si es el taller 4)
 
 ## Preview
 
